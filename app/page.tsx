@@ -1,8 +1,4 @@
-import { useState } from "react";
-// Primary logic
 export default function Home() {
-  const [ blank ] = useState('');
-  
   const products = [
     { name: "CBD Isolate", href: "#" },
     { name: "CBN Isolate", href: "#" },
@@ -17,7 +13,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="sticky top-0 bg-white shadow z-50">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4 py-3">
-          <div className="text-xl font-bold">Logos Botanicals {blank}</div>
+          <div className="text-xl font-bold">Logos Botanicals</div>
           <div className="space-x-6 md:block">
             <a href="#products" className="hover:underline underline-offset-4">Products</a>
             <a href="#about" className="hover:underline underline-offset-4">About</a>
