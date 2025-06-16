@@ -1,6 +1,8 @@
 import { useState } from "react";
-
+// Primary logic
 export default function Home() {
+  const [ blank ] = useState('');
+  
   const products = [
     { name: "CBD Isolate", href: "#" },
     { name: "CBN Isolate", href: "#" },
@@ -15,7 +17,7 @@ export default function Home() {
       {/* Navbar */}
       <nav className="sticky top-0 bg-white shadow z-50">
         <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4 py-3">
-          <div className="text-xl font-bold">Logos Botanicals</div>
+          <div className="text-xl font-bold">Logos Botanicals {blank}</div>
           <div className="space-x-6 md:block">
             <a href="#products" className="hover:underline underline-offset-4">Products</a>
             <a href="#about" className="hover:underline underline-offset-4">About</a>
@@ -154,7 +156,7 @@ export default function Home() {
       {/* Contact Form */}
       <section id="contact" className="bg-gray-100 py-16 px-4">
         <div className="max-w-screen-sm mx-auto">
-          <h2 className="text-2xl font-semibold text-center mb-8">Let's Build Your Next Best Product</h2>
+          <h2 className="text-2xl font-semibold text-center mb-8">Let&apos;s Build Your Next Best Product</h2>
           <form action="https://formspree.io/f/yourformid" method="POST" className="space-y-4">
             <input type="text" name="name" placeholder="Your Name" required className="w-full px-4 py-2 rounded border" />
              <input 
