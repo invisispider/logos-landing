@@ -4,10 +4,10 @@
 ☑️ Use other site as basic template  
 ☑️ Receive assets and content  
 ☑️ Implement Content  
-🟥 Deploy to Github  
-🟥 Deploy to Vercel  
+☑️ Deploy to Github  
+☑️ Deploy to Vercel  
+☑️ Implement contact form logic, whatever other backend stuff  
 🟥 Share with Ryan  
-🟥 Implement contact form logic, whatever other backend stuff  
 
 
 ## Questions:
