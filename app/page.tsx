@@ -168,10 +168,22 @@ export default function Home() {
             growth. Our catalog includes everything from high-purity isolates and rare cannabinoids to
             custom blends! Delivered with consistency, speed, and integrity.
           </p>
-          <h3 className="my-8 text-3xl md:px-8">
-            Logos Botanicals is building the cannabinoid supply chain of the future — one rooted in science,
-            transparency, and shared success
-          </h3>
+          <div className="relative w-full min-h-[200px] rounded-xl flex items-center justify-center bg-green-100">
+            {/* Background Image */}
+            <div className="absolute inset-0 z-0">
+              <Image 
+                src="/images/lab.webp"
+                alt="product boxes"
+                fill
+                className="object-cover opacity-20"
+                priority
+              />
+            </div>
+            <h3 className="my-8 text-3xl md:px-8">
+              Logos Botanicals is building the cannabinoid supply chain of the future — one rooted in science,
+              transparency, and shared success
+            </h3>
+          </div>
         </div>
         <svg viewBox="0 0 1440 320" className="w-full h-full">
           <path fill="#f3f4f6" d="M0,256L1440,128L1440,320L0,320Z" />
