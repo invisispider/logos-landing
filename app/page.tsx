@@ -1,11 +1,11 @@
 import Image from 'next/image';
-import { 
-  FileBadge, 
-  Globe, 
-  FlaskConical, 
-  Truck, 
-  Wrench, 
-  Handshake,  
+import {
+  FileBadge,
+  Globe,
+  FlaskConical,
+  Truck,
+  Wrench,
+  Handshake,
 } from 'lucide-react';
 import MissionAndValues from './components/MissionAndValues';
 
@@ -71,7 +71,7 @@ export default function Home() {
       <section className="text-center text-white bg-black py-20 px-4">
         <h1 className="text-4xl font-bold mb-4">Global Cannabinoid Sourcing Backed by Trust, Scale, and Science</h1>
         <p className="text-lg mb-8">Supplying high-quality cannabinoids to top global brands</p>
-        {/* <a href="#contact" className="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition">Get a Quote</a> */}
+        <a href="#contact" className="bg-gray-600 text-white px-6 py-3 rounded hover:bg-gray-700 transition">Get a Quote</a>
       </section>
 
       {/* Product Grid */}
@@ -91,24 +91,32 @@ export default function Home() {
             </div>
           ))}
         </div>
-        <hr className="m-12 text-gray-300" />
-        <div className="relative w-full h-100 flex items-center justify-center">
-          <Image 
-            src="/images/lab.webp"
-            alt="Lab Banner"
-            fill
-            className="object-cover saturate-20 rounded-xl" 
-          />
-          <div className="prose prose-gray max-w-screen-md mx-auto mt-16">
-            <h2 className="text-xl font-semibold text-center mb-8">Custom Cannabinoid Formulas</h2>
+      </section>
+      {/* <hr className="m-12 text-gray-300" /> */}
+
+      {/* More Products */}
+      <section className="px-4 min-h-[600px]">
+        <div className="relative w-full min-h-[600px] rounded-xl flex items-center justify-center bg-gray-100">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <Image 
+              src="/images/boxes.webp"
+              alt="product boxes"
+              fill
+              className="object-cover opacity-30 grayscale"
+              priority
+            />
+          </div>
+          {/* Foreground Content */}
+          <div className="prose prose-gray max-w-screen-md mx-auto backdrop-blur-xs p-8 rounded-md">
+            <h2 className="text-2xl font-semibold text-center mb-8">Custom Cannabinoid Formulas</h2>
             <p className="mb-4">
               Looking for a unique cannabinoid blend tailored to your product line? Logos Botanicals offers
               custom formulations based on target ratios, format, and application. Blending services available
               for isolates, distillates, and water-compatible cannabinoids. Get in touch to discuss your needs and
               we’ll build to spec.
             </p>
-
-            <h2 className="text-xl font-semibold text-center mb-8">🔬 Research & Specialty Cannabinoids</h2>
+            <h2 className="text-2xl font-semibold text-center mb-8">🔬 Research & Specialty Cannabinoids</h2>
             <p className="mb-4">
               We regularly carry or have access to rare and emerging cannabinoids that may not be listed publicly.
               These include—but are not limited to—CBND, CBDP, THCP, and other high-value actives.
@@ -143,16 +151,16 @@ export default function Home() {
 
           <h2 className="text-3xl font-semibold mb-4">About Logos Botanicals</h2>
           <p className="mb-4"><b>Logos Botanicals</b> is owned and operated by Ryan Campbell, a veteran of the legal cannabis
-          industry with over 15 years of sourcing and operational experience. Having worked across
-          nearly every link in the cannabis supply chain (from cultivation and extraction to global
-          distribution) Ryan brings unparalleled insight into one of the industry’s most complex challenges:
-          Sourcing.
+            industry with over 15 years of sourcing and operational experience. Having worked across
+            nearly every link in the cannabis supply chain (from cultivation and extraction to global
+            distribution) Ryan brings unparalleled insight into one of the industry’s most complex challenges:
+            Sourcing.
           </p>
           <p className="mb-4">
-          At Logos Botanicals, we bridge the gap between brands, manufacturers, and trusted
-          cannabinoid suppliers around the world. With deep relationships and a commitment to radical
-          transparency, our goal is simple: build a cleaner, smarter, and more direct cannabinoid supply
-          chain.
+            At Logos Botanicals, we bridge the gap between brands, manufacturers, and trusted
+            cannabinoid suppliers around the world. With deep relationships and a commitment to radical
+            transparency, our goal is simple: build a cleaner, smarter, and more direct cannabinoid supply
+            chain.
           </p>
           <p className="mb-4">
             We’re the best strategic partners you can ask for! From regulatory guidance and compliance to
@@ -165,35 +173,35 @@ export default function Home() {
             transparency, and shared success
           </h3>
         </div>
-      <svg viewBox="0 0 1440 320" className="w-full h-full">
-        <path fill="#f3f4f6" d="M0,256L1440,128L1440,320L0,320Z" />
-      </svg>
+        <svg viewBox="0 0 1440 320" className="w-full h-full">
+          <path fill="#f3f4f6" d="M0,256L1440,128L1440,320L0,320Z" />
+        </svg>
       </section>
       {/* Contact Form */}
       <section id="contact" className="bg-gray-100 py-16 px-4">
         <div className="max-w-screen-sm mx-auto">
           <h2 className="text-2xl font-semibold text-center mb-8">Let&apos;s Build Your Next Best Product</h2>
-          <form action="https://formspree.io/f/yourformid" method="POST" className="space-y-4">
+          <form action="https://formspree.io/f/xkgbbdbb" method="POST" className="space-y-4">
             <input type="text" name="name" placeholder="Your Name" required className="w-full px-4 py-2 rounded border" />
-             <input 
-              type="text" 
-              name="company" 
-              placeholder="Your Company" 
-              required 
+            <input
+              type="text"
+              name="company"
+              placeholder="Your Company"
+              required
               className="w-full px-4 py-2 rounded border"
             />
             <input type="email" name="email" placeholder="Your Email" required className="w-full px-4 py-2 rounded border" />
-            <input 
-              type="tel" 
-              name="phone" 
-              placeholder="Your Phone (optional)" 
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Your Phone (optional)"
               className="w-full px-4 py-2 rounded border"
             />
-            <input 
-              type="text" 
-              name="product-interest" 
-              placeholder="Product Interest" 
-              required 
+            <input
+              type="text"
+              name="product-interest"
+              placeholder="Product Interest"
+              required
               className="w-full px-4 py-2 rounded border"
             />
             <textarea name="message" placeholder="Your Message" rows={4} required className="w-full px-4 py-2 rounded border"></textarea>
