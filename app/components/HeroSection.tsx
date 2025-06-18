@@ -12,10 +12,10 @@ export default function HeroSection() {
           priority
         />
       </div>
-      <div className="relative z-10 max-w-3xl">
+      <div className="relative z-10 max-w-3xl flex-vertical justify-self-center">
         <h1 className="text-4xl font-bold mb-4">Global Cannabinoid Sourcing Backed by Trust, Scale, and Science</h1>
         <p className="text-lg mb-8">Supplying high-quality cannabinoids to top global brands</p>
-        <a href="#contact" className="bg-secondary-800 text-white px-6 py-3 rounded hover:bg-secondary-700 transition">Get a Quote</a>
+        <a href="#contact" className="bg-secondary-800 text-white px-6 py-3 rounded-full hover:bg-secondary-700 transition">Get a Quote</a>
       </div>
     </section>
   );

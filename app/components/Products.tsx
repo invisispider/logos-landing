@@ -30,7 +30,7 @@ export default function Products() {
       <hr className="m-12 text-gray-300" />
 
       {/* More Products */}
-      <section className="px-4 min-h-[600px]">
+      <section className="min-h-[600px]">
         <div className="relative w-full min-h-[600px] rounded-xl flex items-center justify-center bg-gray-100">
           {/* Background Image */}
           <div className="absolute inset-0 z-0">
@@ -43,20 +43,20 @@ export default function Products() {
             />
           </div>
           {/* Foreground Content */}
-          <div className="prose prose-gray max-w-screen-md mx-auto backdrop-blur-xs p-8 rounded-md">
-            <h2 className="text-2xl font-semibold text-center mb-8">Custom Cannabinoid Formulas</h2>
-            <p className="mb-4">
+          <div className="prose prose-gray max-w-screen-md mx-auto backdrop-blur-xl md:p-8 rounded-md">
+            <h2 className="text-4xl font-semibold text-center mb-8">Custom Cannabinoid Formulas</h2>
+            <p className="mb-4 text-xl">
               Looking for a unique cannabinoid blend tailored to your product line? Logos Botanicals offers
               custom formulations based on target ratios, format, and application. Blending services available
               for isolates, distillates, and water-compatible cannabinoids. Get in touch to discuss your needs and
               we’ll build to spec.
             </p>
-            <h2 className="text-2xl font-semibold text-center mb-8">🔬 Research & Specialty Cannabinoids</h2>
-            <p className="mb-4">
+            <h2 className="text-4xl font-semibold text-center mb-8">🔬 Research & Specialty Cannabinoids</h2>
+            <p className="mb-4 text-xl">
               We regularly carry or have access to rare and emerging cannabinoids that may not be listed publicly.
               These include—but are not limited to—CBND, CBDP, THCP, and other high-value actives.
             </p>
-            <p className="mb-4">
+            <p className="mb-4 text-xl">
               Due to compliance and regulatory factors, please inquire directly for availability, documentation,
               and purchase protocols.
             </p>

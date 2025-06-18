@@ -62,83 +62,100 @@ export default function AboutSection() {
         </div>
       </div>
       <div className="px-4">
-        <div className="pt-20 max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Mission</h2>
-          <p className="text-lg text-gray-700">
+        <div className="relative py-20 px-4 text-gray-900 overflow-hidden">
+          <h2 
+            className="absolute top-0 left-0 text-[16vw] font-bold text-secondary-300 opacity-50 pointer-events-none select-none leading-none z-0"
+            style={{ transform: "rotate(-2deg" }}  
+          >
+            MISSION
+          </h2>
+          <p className="m-auto text-3xl sm:text-4xl md:text-5xl font-semibold max-w-3xl relative z-10 text-gray-700">
             To provide trusted, transparent, and scalable cannabinoid sourcing to brands across the globe.
             Combining science, service, and integrity to build the future of plant medicine.
           </p>
         </div>
 
-        {/* SVG Divider */}
-        <div className="flex justify-center my-12">
-          <svg
-            width="100"
-            height="16"
-            viewBox="0 0 100 16"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="text-gray-300"
+        <div className="max-w-5xl mx-auto">
+          {/* <h2 
+            className="absolute top-0 left-0 text-[16vw] font-bold text-primary-950 opacity-40 pointer-events-none select-none leading-none z-0"
+            style={{ transform: "rotate(-2deg" }}  
           >
-            <path
-              d="M0 8h40M60 8h40"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-            />
-            <circle cx="50" cy="8" r="4" fill="currentColor" />
-          </svg>
-        </div>
+            VALUES
+          </h2> */}
 
-        <div className="max-w-5xl mx-auto pb-20">
-          <h2 className="text-3xl font-bold text-center mb-10">Our Values</h2>
+          <h2 className="text-8xl font-bold text-center mb-10">Our <span className="text-primary-700">Values</span></h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             <div className="flex items-center gap-4 bg-gray-50 p-6 rounded shadow-sm">
               <ShieldCheck className="text-blue-800 w-6 h-6" />
               <div className="flex-1 flex-col justify-center">
-                <h3 className="text-lg font-semibold mb-1">Trust First</h3>
-                <p className="text-gray-600">Radical transparency and full-panel COAs on every product.</p>
+                <h3 className="text-2xl font-semibold mb-1">Trust First</h3>
+                <p className="text-xl text-gray-600">Radical transparency and full-panel COAs on every product.</p>
               </div>
             </div>
             <div className="flex items-center gap-4 bg-gray-50 p-6 rounded shadow-sm">
               <TrendingUp className="text-primary-800 w-6 h-6" />
               <div className="flex-1 flex-col justify-center">
-                <h3 className="text-lg font-semibold mb-1">Scale Smart</h3>
-                <p className="text-gray-600">From 1kg to 1,000kg — we support growth.</p>
+                <h3 className="text-2xl font-semibold mb-1">Scale Smart</h3>
+                <p className="text-xl text-gray-600">From 1kg to 1,000kg — we support growth.</p>
               </div>
             </div>
             <div className="flex items-center gap-4 bg-gray-50 p-6 rounded shadow-sm">
               <Microscope className="text-purple-800 w-6 h-6" />
               <div className="flex-1 flex-col justify-center">
-                <h3 className="text-lg font-semibold mb-1">Science-Driven</h3>
-                <p className="text-gray-600">Only well-characterized, lab-verified cannabinoids.</p>
+                <h3 className="text-2xl font-semibold mb-1">Science-Driven</h3>
+                <p className="text-xl text-gray-600">Only well-characterized, lab-verified cannabinoids.</p>
               </div>
             </div>
             <div className="flex items-center gap-4 bg-gray-50 p-6 rounded shadow-sm">
               <Handshake className="text-secondary-800 w-6 h-6" />
               <div className="flex-1 flex-col justify-center">
-                <h3 className="text-lg font-semibold mb-1">Client-Focused</h3>
-                <p className="text-gray-600">White label support, custom blends, reliable logistics.</p>
+                <h3 className="text-2xl font-semibold mb-1">Client-Focused</h3>
+                <p className="text-xl text-gray-600">White label support, custom blends, reliable logistics.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="max-w-screen-md mx-auto">
-        <h2 className="text-3xl font-semibold mb-4">About Logos Botanicals</h2>
-        <p className="mb-4"><b>Logos Botanicals</b> is owned and operated by Ryan Campbell, a veteran of the legal cannabis
+      {/* SVG Divider */}
+      <div className="flex justify-center my-12 relative">
+        <svg
+          width="100"
+          height="16"
+          viewBox="0 0 100 16"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="text-gray-300"
+        >
+          <path
+            d="M0 8h40M60 8h40"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+          />
+          <circle cx="50" cy="8" r="4" fill="currentColor" />
+        </svg>
+          <h2 
+            className="absolute top-0 left-50 text-[16vw] font-bold text-secondary-300 opacity-30 pointer-events-none select-none leading-none z-0"
+            style={{ transform: "rotate(-2deg" }}  
+          >
+            STORY
+          </h2>
+      </div>
+      <div className="max-w-screen-md mx-auto pt-10">
+        {/* <h2 className="text-3xl font-semibold mb-4">About Logos Botanicals</h2> */}
+        <p className="mb-4 pt-10 text-lg"><b>Logos Botanicals</b> is owned and operated by Ryan Campbell, a veteran of the legal cannabis
           industry with over 15 years of sourcing and operational experience. Having worked across
           nearly every link in the cannabis supply chain (from cultivation and extraction to global
           distribution) Ryan brings unparalleled insight into one of the industry’s most complex challenges:
           Sourcing.
         </p>
-        <p className="mb-4">
+        <p className="mb-4 text-lg">
           At Logos Botanicals, we bridge the gap between brands, manufacturers, and trusted
           cannabinoid suppliers around the world. With deep relationships and a commitment to radical
           transparency, our goal is simple: build a cleaner, smarter, and more direct cannabinoid supply
           chain.
         </p>
-        <p className="mb-4">
+        <p className="mb-4 text-lg">
           We’re the best strategic partners you can ask for! From regulatory guidance and compliance to
           product development and global logistics, Logos Botanicals supports every stage of your
           growth. Our catalog includes everything from high-purity isolates and rare cannabinoids to
@@ -155,7 +172,7 @@ export default function AboutSection() {
               priority
             />
           </div>
-          <h3 className="my-8 text-3xl md:px-8">
+          <h3 className="my-8 text-3xl font-black md:px-8">
             Logos Botanicals is building the cannabinoid supply chain of the future — one rooted in science,
             transparency, and shared success
           </h3>
