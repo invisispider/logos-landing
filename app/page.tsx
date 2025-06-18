@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import BackToTopButton from './components/BackToTopButton';
 import Products from './components/Products';
 import ContactForm from './components/ContactForm';
+// import SVGDivider from './components/SVGDivider';
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
       <BackToTopButton />
       <Navbar />
       <HeroSection />
+      {/* <div className="flex justify-center my-12 relative">
+        <SVGDivider />
+      </div> */}
       <Products />
       <AboutSection />
       <ContactForm />

@@ -6,7 +6,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'merriweather': ['var(--font-merriweather)', 'serif'],
+        merriweather: ['var(--font-merriweather)', 'serif'],
       },
       colors: {
         primary: {

@@ -1,17 +1,17 @@
 import Image from 'next/image';
 export default function Products() {
   const products = [
-    { name: "CBD Isolate", href: "#" },
-    { name: "CBN Isolate", href: "#" },
-    { name: "CBG Isolate", href: "#" },
-    { name: "CBC Isolate", href: "#" },
-    { name: "THCV Isolate", href: "#" },
-    { name: "CBT Distillate", href: "#" },
+    { name: "CBD", category: "Isolate", href: "#" },
+    { name: "CBN", category: "Isolate", href: "#" },
+    { name: "CBG", category: "Isolate", href: "#" },
+    { name: "CBC", category: "Isolate", href: "#" },
+    { name: "THCV", category: "Isolate", href: "#" },
+    { name: "CBT", category: "Distillate", href: "#" },
   ];
   return (
     <>
       <section id="products" className="max-w-screen-xl mx-auto px-4 py-16">
-        <h2 className="text-2xl font-semibold text-center mb-8">Product Categories</h2>
+        <h2 className="text-3xl font-semibold text-center mb-8">Product Categories</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {products.map((p) => (
             <div key={p.name} className="rounded-lg shadow-md p-6 hover:shadow-lg transition">
@@ -21,7 +21,7 @@ export default function Products() {
                 width={100}
                 height={100}
               />
-              <h3 className="text-lg font-semibold mb-2">{p.name}</h3>
+              <h3 className="text-lg font-semibold mb-2"><span className="text-5xl block">{ p.name }</span>{ p.category }</h3>
               <a href={p.href} className="text-gray-600">Learn More</a>
             </div>
           ))}

@@ -76,13 +76,6 @@ export default function AboutSection() {
         </div>
 
         <div className="max-w-5xl mx-auto">
-          {/* <h2 
-            className="absolute top-0 left-0 text-[16vw] font-bold text-primary-950 opacity-40 pointer-events-none select-none leading-none z-0"
-            style={{ transform: "rotate(-2deg" }}  
-          >
-            VALUES
-          </h2> */}
-
           <h2 className="text-8xl font-bold text-center mb-10">Our <span className="text-primary-700">Values</span></h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             <div className="flex items-center gap-4 bg-gray-50 p-6 rounded shadow-sm">
@@ -116,37 +109,20 @@ export default function AboutSection() {
           </div>
         </div>
       </div>
-      {/* SVG Divider */}
       <div className="flex justify-center my-12 relative">
-        <svg
-          width="100"
-          height="16"
-          viewBox="0 0 100 16"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-          className="text-gray-300"
+        <h2 
+          className="absolute top-0 left-50 text-[16vw] font-bold text-secondary-300 opacity-30 pointer-events-none select-none leading-none z-0"
+          style={{ transform: "rotate(-2deg" }}  
         >
-          <path
-            d="M0 8h40M60 8h40"
-            stroke="currentColor"
-            strokeWidth="2"
-            strokeLinecap="round"
-          />
-          <circle cx="50" cy="8" r="4" fill="currentColor" />
-        </svg>
-          <h2 
-            className="absolute top-0 left-50 text-[16vw] font-bold text-secondary-300 opacity-30 pointer-events-none select-none leading-none z-0"
-            style={{ transform: "rotate(-2deg" }}  
-          >
-            STORY
-          </h2>
+          STORY
+        </h2>
       </div>
       <div className="max-w-screen-md mx-auto pt-10">
         {/* <h2 className="text-3xl font-semibold mb-4">About Logos Botanicals</h2> */}
         <p className="mb-4 pt-10 text-lg"><b>Logos Botanicals</b> is owned and operated by Ryan Campbell, a veteran of the legal cannabis
           industry with over 15 years of sourcing and operational experience. Having worked across
           nearly every link in the cannabis supply chain (from cultivation and extraction to global
-          distribution) Ryan brings unparalleled insight into one of the industry’s most complex challenges:
+          distribution) Ryan brings unparalleled insight into one of the industry&aps;s most complex challenges:
           Sourcing.
         </p>
         <p className="mb-4 text-lg">
@@ -156,27 +132,27 @@ export default function AboutSection() {
           chain.
         </p>
         <p className="mb-4 text-lg">
-          We’re the best strategic partners you can ask for! From regulatory guidance and compliance to
+          We&apos;re the best strategic partners you can ask for! From regulatory guidance and compliance to
           product development and global logistics, Logos Botanicals supports every stage of your
           growth. Our catalog includes everything from high-purity isolates and rare cannabinoids to
           custom blends! Delivered with consistency, speed, and integrity.
         </p>
-        <div className="relative w-full min-h-[200px] rounded-xl flex items-center justify-center bg-green-100">
-          {/* Background Image */}
-          <div className="absolute inset-0 z-0">
-            <Image 
-              src="/images/lab.webp"
-              alt="product boxes"
-              fill
-              className="object-cover opacity-20"
-              priority
-            />
-          </div>
-          <h3 className="my-8 text-3xl font-black md:px-8">
-            Logos Botanicals is building the cannabinoid supply chain of the future — one rooted in science,
-            transparency, and shared success
-          </h3>
+      </div>
+      <div className="relative w-full min-h-[200px] flex items-center justify-center bg-primary-900">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/images/lab.webp"
+            alt="product boxes"
+            fill
+            className="object-cover opacity-40"
+            priority
+          />
         </div>
+        <h3 className="my-8 lg:max-w-3xl text-3xl text-secondary-100 md:px-8 relative">
+          Logos Botanicals is building the cannabinoid supply chain of the future — one rooted in science,
+          transparency, and shared success
+        </h3>
       </div>
       <svg viewBox="0 0 1440 320" className="w-full h-full">
         <path fill="#f3f4f6" d="M0,256L1440,128L1440,320L0,320Z" />

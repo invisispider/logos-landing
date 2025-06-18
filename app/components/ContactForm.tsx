@@ -32,7 +32,7 @@ export default function ContactForm() {
             className="w-full px-4 py-2 rounded border"
           />
           <textarea name="message" placeholder="Your Message" rows={4} required className="w-full px-4 py-2 rounded border"></textarea>
-          <button type="submit" className="mx-auto bg-gray-600 text-white px-6 py-2 rounded-full hover:bg-gray-700 transition">Send Message</button>
+          <button type="submit" className="mx-auto bg-secondary-600 text-white px-6 py-2 rounded-full hover:bg-secondary-700 transition">Send Message</button>
         </form>
       </div>
     </section>
