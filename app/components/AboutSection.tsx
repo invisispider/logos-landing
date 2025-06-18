@@ -69,10 +69,10 @@ export default function AboutSection() {
           >
             MISSION
           </h2>
-          <p className="m-auto text-3xl sm:text-4xl md:text-5xl font-semibold max-w-3xl relative z-10 text-gray-700">
+          <em className="m-auto text-3xl sm:text-4xl md:text-5xl font-semibold max-w-3xl relative z-10 text-gray-700">
             To provide trusted, transparent, and scalable cannabinoid sourcing to brands across the globe.
             Combining science, service, and integrity to build the future of plant medicine.
-          </p>
+          </em>
         </div>
 
         <div className="max-w-5xl mx-auto">
@@ -122,7 +122,7 @@ export default function AboutSection() {
         <p className="mb-4 pt-10 text-lg"><b>Logos Botanicals</b> is owned and operated by Ryan Campbell, a veteran of the legal cannabis
           industry with over 15 years of sourcing and operational experience. Having worked across
           nearly every link in the cannabis supply chain (from cultivation and extraction to global
-          distribution) Ryan brings unparalleled insight into one of the industry&aps;s most complex challenges:
+          distribution) Ryan brings unparalleled insight into one of the industry&apos;s most complex challenges:
           Sourcing.
         </p>
         <p className="mb-4 text-lg">
@@ -143,9 +143,9 @@ export default function AboutSection() {
         <div className="absolute inset-0 z-0">
           <Image 
             src="/images/lab.webp"
-            alt="product boxes"
+            alt="extraction lab"
             fill
-            className="object-cover opacity-40"
+            className="object-cover opacity-30"
             priority
           />
         </div>

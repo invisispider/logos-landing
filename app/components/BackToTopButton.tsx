@@ -23,7 +23,7 @@ export default function BackToTopButton() {
       onClick={scrollToTop}
       className={`
         fixed bottom-6 right-6 z-50
-        p-3 rounded-full bg-secondary-200 text-secondary-950 shadow-lg
+        p-3 rounded-full bg-gray-200 text-secondary-950 shadow-lg
         transition-all duration-300 ease-in-out
         hover:bg-secondary-300
         ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4 pointer-events-none"}
