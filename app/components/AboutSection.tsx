@@ -76,7 +76,7 @@ export default function AboutSection() {
         </div>
 
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-8xl font-bold text-center mb-10">Our <span className="text-primary-700">Values</span></h2>
+          <h2 className="text-6xl sm:text-8xl font-bold text-center mb-10">Our <span className="text-primary-700">Values</span></h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
             <div className="flex items-center gap-4 bg-gray-50 p-6 rounded shadow-sm">
               <ShieldCheck className="text-blue-800 w-6 h-6" />

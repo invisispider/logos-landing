@@ -14,15 +14,17 @@ export default function Products() {
         <h2 className="text-3xl font-semibold text-center mb-8">Product Categories</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {products.map((p) => (
-            <div key={p.name} className="rounded-lg shadow-md p-6 hover:shadow-lg transition">
-              <Image className="float-right"
+            <div key={p.name} className="flex-col justify-items-end relative align-middle rounded-lg shadow-md p-6 hover:shadow-lg transition">
+              <Image className="absolute inset-auto"
                 src="/images/isolate.webp"
                 alt="Logo"
                 width={100}
                 height={100}
               />
-              <h3 className="text-lg font-semibold mb-2"><span className="text-5xl block">{ p.name }</span>{ p.category }</h3>
+              <div>
+              <h3 className="text-lg font-semibold mb-2 relative"><span className="text-5xl block">{ p.name }</span>{ p.category }</h3>
               <a href={p.href} className="text-gray-600">Learn More</a>
+              </div>
             </div>
           ))}
         </div>
