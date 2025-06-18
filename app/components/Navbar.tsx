@@ -17,9 +17,9 @@ export default function HeroSection() {
           <span className="text-secondary-300 text-2xl">Botanicals</span>
         </div>
         <div className="space-x-6 md:block">
-          <a href="#products" className="text-secondary-300 hover:text-secondary-500">Products</a>
-          <a href="#about" className="text-secondary-300 hover:text-secondary-500">About</a>
-          <a href="#contact" className="text-secondary-300 hover:text-secondary-500">Contact</a>
+          <a href="#products" className="text-white hover:text-secondary-200">Products</a>
+          <a href="#about" className="text-white hover:text-secondary-200">About</a>
+          <a href="#contact" className="text-white hover:text-secondary-200">Contact</a>
         </div>
       </div>
     </nav>
