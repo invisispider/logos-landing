@@ -6,7 +6,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        'roboto-condensed': ['"Roboto Condensed"', 'sans-serif'],
+        'merriweather': ['var(--font-merriweather)', 'serif'],
       },
       colors: {
         primary: {

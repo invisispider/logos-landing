@@ -8,6 +8,8 @@ import {
   Handshake,
 } from 'lucide-react';
 import MissionAndValues from './components/MissionAndValues';
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   const products = [
@@ -55,28 +57,8 @@ export default function Home() {
 
   return (
     <main className="min-h-screen bg-gray-50 text-gray-800">
-      
-    {/* Navbar */}
-      <nav className="sticky top-0 bg-primary-400 shadow z-50">
-        <div className="max-w-screen-xl mx-auto flex justify-between items-center px-4 py-3">
-          <div className="text-2xl font-bold">
-            <span className="text-white">Logos </span>
-            <span className="text-secondary">Botanicals</span>
-          </div>
-          <div className="space-x-6 md:block">
-            <a href="#products" className="hover:underline underline-offset-4">Products</a>
-            <a href="#about" className="hover:underline underline-offset-4">About</a>
-            <a href="#contact" className="hover:underline underline-offset-4">Contact</a>
-          </div>
-        </div>
-      </nav>
-
-      {/* Hero Section */}
-      <section className="text-center text-white bg-black py-20 px-4">
-        <h1 className="text-4xl font-bold mb-4">Global Cannabinoid Sourcing Backed by Trust, Scale, and Science</h1>
-        <p className="text-lg mb-8">Supplying high-quality cannabinoids to top global brands</p>
-        <a href="#contact" className="bg-gray-600 text-white px-6 py-3 rounded hover:bg-gray-700 transition">Get a Quote</a>
-      </section>
+      <Navbar />
+      <HeroSection />
 
       {/* Product Grid */}
       <section id="products" className="max-w-screen-xl mx-auto px-4 py-16">
@@ -91,7 +73,7 @@ export default function Home() {
                 height={100}
               />
               <h3 className="text-lg font-semibold mb-2">{p.name}</h3>
-              <a href={p.href} className="text-gray-600 hover:underline">Learn More</a>
+              <a href={p.href} className="text-gray-600">Learn More</a>
             </div>
           ))}
         </div>
@@ -151,8 +133,8 @@ export default function Home() {
         </div>
 
         <MissionAndValues />
-        <div className="max-w-screen-md mx-auto">
 
+        <div className="max-w-screen-md mx-auto">
           <h2 className="text-3xl font-semibold mb-4">About Logos Botanicals</h2>
           <p className="mb-4"><b>Logos Botanicals</b> is owned and operated by Ryan Campbell, a veteran of the legal cannabis
             industry with over 15 years of sourcing and operational experience. Having worked across
