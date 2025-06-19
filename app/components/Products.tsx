@@ -15,6 +15,7 @@ export default function Products() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {products.map((p) => (
             <div key={p.name} className="bg-gray-100 flex-col justify-items-end relative align-middle rounded-lg shadow-md p-6 hover:shadow-lg transition">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img className="absolute inset-auto"
                 src="/images/isolate.webp"
                 alt="Product Jar Image"

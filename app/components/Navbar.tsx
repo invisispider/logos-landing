@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 
 export default function HeroSection() {
   return (
@@ -6,6 +6,7 @@ export default function HeroSection() {
       <div className="max-w-screen-xl mx-auto px-3 py-1 grid grid-cols-1 sm:flex sm:justify-between sm:items-center gap-2">
         {/* Logo */}
         <div className="flex text-center sm:text-left">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
             src="/images/emblem.svg"
             alt="logo icon"
