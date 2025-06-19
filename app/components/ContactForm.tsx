@@ -1,4 +1,3 @@
-import Image from "next/image";
 export default function ContactForm() {
   return (
     <section id="contact" className="bg-gray-100 py-16 px-4">
@@ -33,11 +32,7 @@ export default function ContactForm() {
           />
           <textarea name="message" placeholder="Your Message" rows={4} required className="w-full px-4 py-2 rounded border"></textarea>
           <div className="flex items-center justify-center mt-10 space-x-4">
-            {/* <Image src="/images/SquareLogo.webp" alt="Logos Botanicals" width={64} height={64} className="rounded shadow" /> */}
             <button type="submit" className="mx-auto bg-secondary-600 text-white px-6 py-2 rounded-full hover:bg-secondary-700 transition">Send Message</button>
-            {/* <a href="#shop" className="bg-green-600 text-white px-5 py-3 rounded hover:bg-green-700 text-lg font-semibold">
-              Shop Now
-            </a> */}
           </div>
         </form>
       </div>
