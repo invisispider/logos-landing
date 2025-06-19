@@ -1,5 +1,12 @@
-# LOGOS BOTANICALS
-### Brand Style Guide
+# Brand Style Guide
+
+**Brand Name:** LOGOS BOTANICALS  
+
+**Tagline:** "Global Cannabinoid Sourcing Backed by Trust, Scale, and Science"
+
+**Slogan:** "Supplying high-quality cannabinoids to top global brands"  
+
+**Mission:** "To provide trusted, transparent, and scalable cannabinoid sourcing to brands across the globe. Combining science, service, and integrity to build the future of plant medicine."
 
 ## IMAGES
 
