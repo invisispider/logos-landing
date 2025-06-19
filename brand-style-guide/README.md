@@ -4,7 +4,7 @@
 ## IMAGES
 
 ### Primary Logo:  
-![Scalable Primary Logo](../image-working/SquareLogo-scalable.svg)
+![Scalable Primary Logo](../public/images/SquareLogo-scalable.svg)
 
 ### Icon Logo:  
 ![Scalable Emblem](../public/images/emblem.svg)
