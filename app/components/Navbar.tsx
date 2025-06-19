@@ -6,12 +6,11 @@ export default function HeroSection() {
       <div className="max-w-screen-xl mx-auto px-3 py-1 grid grid-cols-1 sm:flex sm:justify-between sm:items-center gap-2">
         {/* Logo */}
         <div className="flex text-center sm:text-left">
-          <Image 
+          <img 
             src="/images/emblem.svg"
             alt="logo icon"
             width={28}
             height={28}
-            priority
             className="inline mx-2 rounded-sm object-contain"
           />
           <div className="text-center flex flex-col flex-wrap align-around">
