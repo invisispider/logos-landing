@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <nav className="sticky top-0 bg-black shadow z-50">
+    <nav className="sticky top-0 bg-primary-900 border-b border-black shadow z-50">
       <div className="max-w-screen-xl mx-auto px-3 py-1 grid grid-cols-1 sm:flex sm:justify-between sm:items-center gap-2">
         {/* Logo */}
         <div className="flex text-center sm:text-left">

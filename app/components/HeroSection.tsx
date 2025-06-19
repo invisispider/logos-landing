@@ -15,7 +15,10 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-3xl flex-vertical justify-self-center">
         <h1 className="text-4xl font-bold mb-4">Global Cannabinoid Sourcing Backed by Trust, Scale, and Science</h1>
         <p className="text-lg mb-8">Supplying high-quality cannabinoids to top global brands</p>
-        <a href="#contact" className="bg-secondary-800 text-white px-6 py-3 rounded-full hover:bg-secondary-700 transition">Get a Quote</a>
+        <div className="flex align-middle justify-center">
+          <a href="#contact" className="font-black bg-secondary-800 text-white px-6 py-3 rounded-full hover:bg-secondary-700 transition">Get a Quote</a>
+          <span className="border-l border-secondary-400 h-auto mx-3 font-semibold px-3 my-auto text-secondary-400">Fast Response</span>
+        </div>
       </div>
     </section>
   );
