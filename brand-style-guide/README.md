@@ -4,10 +4,10 @@
 ## IMAGES
 
 ### Primary Logo:  
-![Scalable Primary Logo](../public/images/SquareLogo-scalable.svg)
+<img src="../public/images/SquareLogo-scalable.svg" width="300px" height="300px" />
 
 ### Icon Logo:  
-![Scalable Emblem](../public/images/emblem.svg)
+<img src="../public/images/emblem.svg" width="200px" height="200px" />
 
 ## COLORS  
 
