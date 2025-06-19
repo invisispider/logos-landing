@@ -14,7 +14,7 @@ export default function Products() {
         <h2 className="text-3xl font-semibold text-center mb-8">Product <span className="text-secondary-700">Categories</span></h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {products.map((p) => (
-            <div key={p.name} className="flex-col justify-items-end relative align-middle rounded-lg shadow-md p-6 hover:shadow-lg transition">
+            <div key={p.name} className="bg-primary-100 flex-col justify-items-end relative align-middle rounded-lg shadow-md p-6 hover:shadow-lg transition">
               <Image className="absolute inset-auto"
                 src="/images/isolate.webp"
                 alt="Product Jar Image"

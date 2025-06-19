@@ -46,7 +46,7 @@ export default function AboutSection() {
   ];
 
   return (
-    <section id="about" className="bg-white text-center">
+    <section id="about" className="text-center">
       {/* <div className="mt-5 flex flex-wrap justify-evenly">
         <Image className="w-1/3 md:w-1/4 m-auto rounded-lg"
           src="/images/SquareLogo.webp" alt="logos botanicals" width="1024" height="1024"
@@ -76,7 +76,7 @@ export default function AboutSection() {
         <div className="max-w-screen-xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature) => (
-              <div key={feature.title} className="bg-white rounded-lg shadow p-6 hover:shadow-lg transition">
+              <div key={feature.title} className="bg-gray-100 rounded-lg shadow p-6 hover:shadow-lg transition">
                 <div className="justify-self-center">{feature.icon}</div>
                 <h3 className="text-xl font-semibold mt-4">{feature.title}</h3>
                 <p className="text-gray-700 mt-2">{feature.text}</p>
@@ -145,7 +145,7 @@ export default function AboutSection() {
         {/* <h2 className="text-3xl font-semibold mb-4">About Logos Botanicals</h2> */}
 
       <div className="flex flex-col md:flex-row items-center gap-6 mt-16">
-        <Image src="/images/SquareLogo.webp" alt="Logos Botanicals" width={128} height={128} className="rounded shadow" />
+        {/* <Image src="/images/SquareLogo.webp" alt="Logos Botanicals" width={128} height={128} className="rounded shadow" /> */}
         <div>
           {/* <h2 className="text-3xl font-bold mb-2">Roots</h2> */}
           {/* <p className="text-lg text-gray-600">Logos Botanicals began with a mission to...</p> */}
