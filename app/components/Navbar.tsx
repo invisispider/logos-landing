@@ -5,17 +5,19 @@ export default function HeroSection() {
     <nav className="sticky top-0 bg-black shadow z-50">
       <div className="max-w-screen-xl mx-auto px-3 py-1 grid grid-cols-1 sm:flex sm:justify-between sm:items-center gap-2">
         {/* Logo */}
-        <div className="text-2xl font-bold text-center sm:text-left">
+        <div className="flex text-center sm:text-left">
           <Image 
-            src="/images/icon-32x32.png"
+            src="/images/emblem.svg"
             alt="logo icon"
-            width="32"
-            height="32"
+            width={28}
+            height={28}
             priority
-            className="inline mx-2 rounded-md"
+            className="inline mx-2 rounded-sm object-contain"
           />
-          <span className="text-white">Logos </span>
-          <span className="text-secondary-300">Botanicals</span>
+          <div className="text-center flex flex-col flex-wrap align-around">
+            <span className="text-2xl justify-center text-gray-100 uppercase font-bold">Logos </span>
+            <span className="relative bottom-1 justify-center text-xs text-secondary-400 font-thin uppercase">Botanicals</span>
+          </div>
         </div>
 
         {/* Nav Links */}

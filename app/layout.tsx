@@ -5,7 +5,7 @@ import { Merriweather } from "next/font/google";
 const merriweather = Merriweather({
   variable: "--font-merriweather",
   subsets: ["latin"],
-  weight: ["400"],
+  weight: ["300"],
   style: ["normal", "italic"],
   fallback: ["Arial", "Helvetica", "sans-serif"]
 });
