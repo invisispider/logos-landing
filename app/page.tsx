@@ -18,7 +18,7 @@ export default function Home() {
       <Products />
       <AboutSection />
       <ContactForm />
-      <footer className="bg-primary-900 text-white text-center py-6 text-sm">
+      <footer className="bg-primary-900 text-white text-center py-3 text-sm">
         &copy; {new Date().getFullYear()} Logos Botanicals. All rights reserved.
       </footer>
     </main>

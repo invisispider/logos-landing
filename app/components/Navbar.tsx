@@ -7,7 +7,7 @@ export default function HeroSection() {
         {/* Logo */}
         <div className="text-2xl font-bold text-center sm:text-left">
           <Image 
-            src="/images/icon.svg"
+            src="/images/icon-32x32.png"
             alt="logo icon"
             width="32"
             height="32"
