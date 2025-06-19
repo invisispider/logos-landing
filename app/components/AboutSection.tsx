@@ -76,7 +76,7 @@ export default function AboutSection() {
         <div className="max-w-screen-xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {features.map((feature) => (
-              <div key={feature.title} className="bg-gray-100 rounded-lg shadow p-6 hover:shadow-lg transition">
+              <div key={feature.title} className="bg-primary-100 rounded-lg shadow p-6 hover:shadow-lg transition">
                 <div className="justify-self-center">{feature.icon}</div>
                 <h3 className="text-xl font-semibold mt-4">{feature.title}</h3>
                 <p className="text-gray-700 mt-2">{feature.text}</p>
